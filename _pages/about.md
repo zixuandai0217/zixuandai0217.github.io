@@ -19,12 +19,20 @@ Education
 
 <div class="experience-container">
   <div class="experience-card">
-    <div class="experience-logo experience-icon experience-icon--blue"><i class="fas fa-brain" aria-hidden="true"></i></div>
+    <div class="experience-logo experience-icon experience-icon--blue"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div>
     <div class="experience-info">
-      <strong>正在学习</strong><br>
-      <em>Always in progress</em><br>
-      AI、代码与表达<br>
-      <span class="muted-copy">试着把复杂的东西理解清楚，也试着把它们讲得简单。</span>
+      <strong>华东交通大学</strong><br>
+      <em>2019 - 2023</em><br>
+      本科
+    </div>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-logo experience-icon"><i class="fas fa-building-columns" aria-hidden="true"></i></div>
+    <div class="experience-info">
+      <strong>浙江工商大学</strong><br>
+      <em>2024 - 至今</em><br>
+      研究生
     </div>
   </div>
 </div>
@@ -34,22 +42,10 @@ Experience
 
 <div class="experience-container">
   <div class="experience-card">
-    <div class="experience-logo experience-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+    <div class="experience-logo experience-icon experience-icon--yellow"><i class="fas fa-briefcase" aria-hidden="true"></i></div>
     <div class="experience-info">
-      <strong>正在制作</strong><br>
-      <em>2026.07 - Present</em><br>
-      这座在线小屋<br>
-      <span class="muted-copy">从一个空仓库开始，让它先有内容，再慢慢长出性格。</span>
-    </div>
-  </div>
-
-  <div class="experience-card">
-    <div class="experience-logo experience-icon experience-icon--yellow"><i class="fas fa-lightbulb" aria-hidden="true"></i></div>
-    <div class="experience-info">
-      <strong>保持好奇</strong><br>
-      <em>No deadline</em><br>
-      那些暂时没用、但很有趣的问题<br>
-      <span class="muted-copy">很多真正重要的东西，刚开始都看不出有什么用。</span>
+      <strong>越真生物科技</strong><br>
+      <em>2024.04 - 2024.07</em>
     </div>
   </div>
 </div>
