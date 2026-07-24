@@ -2,6 +2,7 @@
 _site/
 .bundle/
 /vendor/
+/assets/js/vendor/
 
 # Ignore the directory for local files during development
 local/
