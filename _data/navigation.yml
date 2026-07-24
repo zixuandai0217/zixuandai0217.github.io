@@ -2,13 +2,13 @@
 
 main:
   - title: "Education"
-    url: "/#top"
+    url: "/#education"
 
   - title: "Experience"
-    url: "/#now"
+    url: "/#experience"
 
   - title: "Project"
-    url: "/#projects"
+    url: "/#project"
 
-  - title: "Notes"
-    url: "/#notes"
+  - title: "Note"
+    url: "/#note"

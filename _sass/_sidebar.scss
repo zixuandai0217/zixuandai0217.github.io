@@ -273,7 +273,9 @@
   }
 
   a {
-    &:hover {
+    &:hover,
+    &:focus-visible {
+      color: #CA6F70;
       text-decoration: underline;
     }
   }
@@ -291,7 +293,7 @@
     text-align: center;
   }
 
-  &.social-icons a > .fa-github {
+  &.social-icons a > i {
     color: inherit;
     transition: color 0.3s ease;
   }

@@ -14,18 +14,23 @@ redirect_from:
 
 <p class="intro-copy">我对 AI、代码和表达复杂想法的方式保持好奇。主页会慢慢更新，不追求一次写完。</p>
 
-News
----------------
-<div class="news-box">
-  <ul class="news-list">
-    <li><span class="news-date"><em>2026.07</em></span> 🎉 个人主页正式上线。</li>
-    <li><span class="news-date"><em>2026.07</em></span> 🛠️ 给这座在线小屋换了一身新衣服。</li>
-    <li><span class="news-date"><em>Now</em></span> 🔍 正在寻找下一件值得动手的小事。</li>
-  </ul>
+Education
+---------
+
+<div class="experience-container">
+  <div class="experience-card">
+    <div class="experience-logo experience-icon experience-icon--blue"><i class="fas fa-brain" aria-hidden="true"></i></div>
+    <div class="experience-info">
+      <strong>正在学习</strong><br>
+      <em>Always in progress</em><br>
+      AI、代码与表达<br>
+      <span class="muted-copy">试着把复杂的东西理解清楚，也试着把它们讲得简单。</span>
+    </div>
+  </div>
 </div>
 
-Now
---------------
+Experience
+----------
 
 <div class="experience-container">
   <div class="experience-card">
@@ -35,16 +40,6 @@ Now
       <em>2026.07 - Present</em><br>
       这座在线小屋<br>
       <span class="muted-copy">从一个空仓库开始，让它先有内容，再慢慢长出性格。</span>
-    </div>
-  </div>
-
-  <div class="experience-card">
-    <div class="experience-logo experience-icon experience-icon--blue"><i class="fas fa-brain" aria-hidden="true"></i></div>
-    <div class="experience-info">
-      <strong>正在学习</strong><br>
-      <em>Always in progress</em><br>
-      AI、代码与表达<br>
-      <span class="muted-copy">试着把复杂的东西理解清楚，也试着把它们讲得简单。</span>
     </div>
   </div>
 
@@ -59,8 +54,8 @@ Now
   </div>
 </div>
 
-Projects
---------
+Project
+-------
 
 <div class="project-card">
   <div style="display: flex; align-items: center;">
@@ -77,9 +72,6 @@ Projects
     </div>
   </div>
 </div>
-
-Fun Lab
---------
 
 <div class="project-card fun-card">
   <div style="display: flex; align-items: center;">
@@ -111,21 +103,11 @@ Fun Lab
   </div>
 </div>
 
-Notes
---------
+Note
+----
 
 - *2026.07.24*, 为什么先做主页？因为它足够小，可以马上开始；又足够开放，可以一直生长。
 - *2026.07.24*, 好的模板解决结构，真正属于自己的部分来自选择、删减和持续更新。
 - *2026.07.24*, 一个在线的不完美版本，比硬盘里永远“快做完”的完美版本更有生命力。
-
-Contact
---------
-
-<div class="contact-box">
-  有好玩的项目、建议，或者只是一个值得继续追问的问题，欢迎通过
-  <a href="mailto:zixuandai0217@foxmail.com"><strong>邮件</strong></a>
-  或 <a href="https://github.com/zixuandai0217"><strong>GitHub</strong></a> 联系我。<br>
-  <a href="mailto:zixuandai0217@foxmail.com">zixuandai0217@foxmail.com</a> · 浙江杭州
-</div>
 
 <script src="{{ '/assets/js/home.js' | relative_url }}"></script>

@@ -2,12 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
-#news,
+#education,
     #experience,
-    #publications,
-    #projects,
-    #awards,
-    #talks {
+    #project,
+    #note {
         scroll-margin-top: 80px;
     }
 
@@ -372,12 +370,10 @@
         }
 
         #top,
-        #news,
-        #now,
-        #projects,
-        #fun-lab,
-        #notes,
-        #contact {
+        #education,
+        #experience,
+        #project,
+        #note {
             scroll-margin-top: 80px;
         }
 
