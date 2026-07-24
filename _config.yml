@@ -11,7 +11,7 @@ author:
   avatar           : "github-avatar.png"
   name             : "Zixuan Dai"
   pronouns         :
-  bio              : "Building, learning, and collecting interesting questions."
+  bio              : "一边做东西，一边收集有趣的问题。"
   location         :
   employer         :
   uri              :
@@ -76,7 +76,7 @@ staticman:
         format           : "iso8601"
 
 atom_feed:
-  hide                   : false
+  hide                   : true
   path                   :
 
 google_site_verification :
@@ -94,7 +94,8 @@ og_image                 :
 social:
   type                   :
   name                   :
-  links                  : []
+  links                  :
+    - "https://github.com/zixuandai0217"
 
 analytics:
   provider               : false
