@@ -178,6 +178,10 @@ a {
   display: block;
 }
 
+.mobile-break {
+  display: none;
+}
+
 .hero__wave {
   height: 52px;
   margin-top: 5px;
@@ -579,6 +583,10 @@ a {
   .hero__wave {
     height: 38px;
     width: 38px;
+  }
+
+  .mobile-break {
+    display: block;
   }
 
   .hero__lead {

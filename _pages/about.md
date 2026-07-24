@@ -14,7 +14,7 @@ redirect_from:
     <span>PERSONAL FIELD NOTES · 2026</span>
   </div>
   <div class="hero__title-row">
-    <h1 id="hero-title">你好，我是子轩。<span>我把好奇心做成东西。</span></h1>
+    <h1 id="hero-title">你好，我是子轩。<span>我把好奇心<br class="mobile-break">做成东西。</span></h1>
     <img class="hero__wave" src="{{ '/images/Hi.gif' | relative_url }}" alt="挥手">
   </div>
   <p class="hero__lead">这里不是一份严肃到发皱的简历，而是我的在线试验场。它会装下正在学习的东西、做过的小项目，以及偶尔冒出来的奇怪想法。</p>
