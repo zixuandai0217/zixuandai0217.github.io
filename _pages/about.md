@@ -47,7 +47,7 @@ Experience
 <div class="experience-container">
   <div class="experience-card">
     <div class="experience-logo experience-brand">
-      <img src="images/m20-genomics-logo.png" alt="越真生物科技 M20 Genomics Logo">
+      <img src="images/m20-genomics-logo.png?v=2" alt="越真生物科技 M20 Genomics Logo">
     </div>
     <div class="experience-info">
       <strong>越真生物科技</strong><br>
