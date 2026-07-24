@@ -10,7 +10,7 @@ redirect_from:
 
 <h1 class="main-heading" id="top">Hi there <img src="images/Hi.gif" width="40px" alt="挥手"> Welcome to my Homepage!</h1>
 
-<p class="intro-copy">你好，我是子轩。这里是我的个人主页，也是一个用来记录学习、项目和奇怪想法的小空间。</p>
+<p class="intro-copy">你好，我是子轩，现居浙江杭州。这里是我的个人主页，也是一个用来记录学习、项目和奇怪想法的小空间。</p>
 
 <p class="intro-copy">我对 AI、代码和表达复杂想法的方式保持好奇。主页会慢慢更新，不追求一次写完。</p>
 
@@ -122,8 +122,10 @@ Contact
 --------
 
 <div class="contact-box">
-  有好玩的项目、建议，或者只是一个值得继续追问的问题，欢迎来 GitHub 找我：
-  <a href="https://github.com/zixuandai0217"><strong>@zixuandai0217</strong></a>
+  有好玩的项目、建议，或者只是一个值得继续追问的问题，欢迎通过
+  <a href="mailto:zixuandai0217@foxmail.com"><strong>邮件</strong></a>
+  或 <a href="https://github.com/zixuandai0217"><strong>GitHub</strong></a> 联系我。<br>
+  <a href="mailto:zixuandai0217@foxmail.com">zixuandai0217@foxmail.com</a> · 浙江杭州
 </div>
 
 <script src="{{ '/assets/js/home.js' | relative_url }}"></script>
