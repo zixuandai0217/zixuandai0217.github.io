@@ -1,0 +1,17 @@
+# main links links
+
+main:
+  - title: "首页"
+    url: "/#top"
+
+  - title: "近况"
+    url: "/#now"
+
+  - title: "实验"
+    url: "/#experiments"
+
+  - title: "随笔"
+    url: "/#notes"
+
+  - title: "联系"
+    url: "/#contact"
