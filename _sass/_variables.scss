@@ -13,8 +13,8 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : "Arial Rounded MT Bold", "Verdana", "Comic Sans MS", "Segoe Print", "Lucida Handwriting", "Apple Chancery", "Zapfino", sans-serif;
+$serif                      : "Lora", "Noto Serif SC", "Songti SC", SimSun, Georgia, serif;
+$sans-serif                 : "Poppins", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -28,7 +28,7 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
+$global-font-family         : $serif;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
