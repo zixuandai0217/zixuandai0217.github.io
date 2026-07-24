@@ -31,7 +31,7 @@ Education
 
   <div class="experience-card">
     <div class="experience-logo experience-brand experience-brand--zjgsu">
-      <img src="images/zjgsu-logo.png" alt="浙江工商大学校徽">
+      <img src="images/zjgsu-logo-light.png" alt="浙江工商大学校徽">
     </div>
     <div class="experience-info">
       <strong>浙江工商大学</strong><br>

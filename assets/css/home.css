@@ -81,7 +81,6 @@
     }
     .experience-brand--zjgsu img {
         flex: 0 0 auto;
-        filter: brightness(0) saturate(100%) invert(31%) sepia(29%) saturate(1041%) hue-rotate(163deg) brightness(88%) contrast(92%);
         height: 46px;
         max-height: none;
         max-width: none;
