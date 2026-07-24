@@ -61,8 +61,8 @@ Project
 
 <div class="project-card">
   <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator lianleme-media" style="position: relative; width: 260px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/lianleme-hero.png" alt="Lianleme project graphic" style="width: 260px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    <div class="pub-media-rotator lianleme-media" style="position: relative; width: 400px; aspect-ratio: 1800 / 873; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/lianleme-cover.png" alt="Lianleme AI 健身与营养教练项目封面" style="width: 100%; height: 100%; object-fit: cover; display: block; margin: 0 auto;">
     </div>
     <div>
       <strong>Lianleme（练了么）</strong><br>

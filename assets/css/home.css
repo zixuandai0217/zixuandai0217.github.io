@@ -431,9 +431,9 @@
         }
 
         .lianleme-media {
-            background: #15131c;
+            background: #fff;
             box-sizing: border-box;
-            padding: 14px;
+            padding: 0;
         }
 
         .lianleme-media > img {
@@ -469,6 +469,10 @@
 
             .experience-brand--zjgsu img {
                 height: 38px;
+            }
+
+            .project-card .lianleme-media {
+                aspect-ratio: 1800 / 873;
             }
 
         }
