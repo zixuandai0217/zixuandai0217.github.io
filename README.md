@@ -18,8 +18,8 @@ bundle exec jekyll serve
 - `_config.yml`：网站标题、作者与社交链接
 - `_pages/about.md`：首页内容
 - `assets/css/home.css`：首页视觉样式
-- `assets/js/home.js`：随机灵感交互
 - `images/github-avatar.png`：GitHub 头像的本地副本
+- `images/lianleme-hero.png`：Lianleme 项目素材
 
 ## License
 
