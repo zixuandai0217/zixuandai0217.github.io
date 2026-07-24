@@ -36,7 +36,9 @@
     }
 
     .experience-card {
-        display: flex;
+        display: grid;
+        grid-template-columns: 60px minmax(0, 1fr);
+        column-gap: 20px;
         align-items: center;
         background: #f9f9f9;
         border-radius: 12px;
@@ -52,9 +54,38 @@
     .experience-logo {
         width: 60px;
         height: 60px;
-        margin-right: 20px;
         border-radius: 8px;
+    }
+    .experience-brand {
+        align-items: center;
+        background: #fff;
+        border: 1px solid #e7e7e3;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        padding: 6px;
+    }
+    .experience-brand img {
+        display: block;
+        height: 100%;
+        margin: 0;
+        max-height: 100%;
+        max-width: 100%;
         object-fit: contain;
+        width: 100%;
+    }
+    .experience-brand--zjgsu {
+        background: #194d78;
+        justify-content: flex-start;
+    }
+    .experience-brand--zjgsu img {
+        flex: 0 0 auto;
+        height: 46px;
+        max-height: none;
+        max-width: none;
+        object-fit: initial;
+        width: auto;
     }
     .experience-info {
         font-family: 'Lora', 'Noto Serif SC', 'Songti SC', SimSun, Georgia, serif;
@@ -386,26 +417,6 @@
             max-width: 760px;
         }
 
-        .experience-icon {
-            align-items: center;
-            background: #fef5f1;
-            color: #ca6f6f;
-            display: flex;
-            flex: 0 0 auto;
-            font-size: 24px;
-            justify-content: center;
-        }
-
-        .experience-icon--blue {
-            background: #eef4fb;
-            color: #6f8fb8;
-        }
-
-        .experience-icon--yellow {
-            background: #fff7df;
-            color: #c89532;
-        }
-
         .muted-copy {
             color: #888;
         }
@@ -446,13 +457,18 @@
 
             .experience-card {
                 align-items: flex-start;
+                column-gap: 14px;
+                grid-template-columns: 52px minmax(0, 1fr);
                 padding: 13px;
             }
 
             .experience-logo {
                 height: 52px;
-                margin-right: 14px;
                 width: 52px;
+            }
+
+            .experience-brand--zjgsu img {
+                height: 38px;
             }
 
         }

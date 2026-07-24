@@ -250,15 +250,14 @@
   li.author__email {
     white-space: normal;
 
-    a {
-      grid-template-columns: 1.85em minmax(0, 1fr);
+    .author__link-label {
       overflow-wrap: anywhere;
-      font-size: 0.92em;
+      font-size: 0.84em;
     }
   }
 
-  a,
-  span {
+  li > a,
+  li > span {
     display: grid;
     grid-template-columns: 1.85em 1fr;
     column-gap: 0.52em;
@@ -270,6 +269,11 @@
     color: inherit;
     font-size: 1.1em;
     text-decoration: none;
+  }
+
+  .author__link-label {
+    display: block;
+    min-width: 0;
   }
 
   a {

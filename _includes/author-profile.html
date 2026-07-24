@@ -31,7 +31,7 @@
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
         {% assign location_query = author.location | url_encode %}
-        <li class="author__desktop"><a href="https://www.google.com/maps/search/?api=1&query={{ location_query }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</a></li>
+        <li class="author__desktop"><a href="https://www.google.com/maps/search/?api=1&query={{ location_query }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i><span class="author__link-label">{{ author.location }}</span></a></li>
       {% endif %}
       {% if author.employer %}
         {% assign employer_query = author.employer | url_encode %}
@@ -41,7 +41,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li class="author__email"><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ author.email }}</a></li>
+        <li class="author__email"><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i><span class="author__link-label">{{ author.email }}</span></a></li>
       {% endif %}
       {% if author.WeChat %}
         <li class="author__wechat"><a href="{{ author.WeChat }}"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</a></li>
@@ -81,7 +81,7 @@
         <li><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a></li>
       {% endif %}      
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>@{{ author.github }}</a></li>
+        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i><span class="author__link-label">@{{ author.github }}</span></a></li>
       {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>

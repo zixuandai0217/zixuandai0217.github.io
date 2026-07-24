@@ -19,7 +19,9 @@ Education
 
 <div class="experience-container">
   <div class="experience-card">
-    <div class="experience-logo experience-icon experience-icon--blue"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div>
+    <div class="experience-logo experience-brand">
+      <img src="images/ecjtu-emblem.png" alt="华东交通大学校徽">
+    </div>
     <div class="experience-info">
       <strong>华东交通大学</strong><br>
       <em>2019 - 2023</em><br>
@@ -28,7 +30,9 @@ Education
   </div>
 
   <div class="experience-card">
-    <div class="experience-logo experience-icon"><i class="fas fa-building-columns" aria-hidden="true"></i></div>
+    <div class="experience-logo experience-brand experience-brand--zjgsu">
+      <img src="images/zjgsu-logo.png" alt="浙江工商大学校徽">
+    </div>
     <div class="experience-info">
       <strong>浙江工商大学</strong><br>
       <em>2024 - 至今</em><br>
@@ -42,7 +46,9 @@ Experience
 
 <div class="experience-container">
   <div class="experience-card">
-    <div class="experience-logo experience-icon experience-icon--yellow"><i class="fas fa-briefcase" aria-hidden="true"></i></div>
+    <div class="experience-logo experience-brand">
+      <img src="images/m20-genomics-logo.png" alt="越真生物科技 M20 Genomics Logo">
+    </div>
     <div class="experience-info">
       <strong>越真生物科技</strong><br>
       <em>2024.04 - 2024.07</em>
