@@ -1,17 +1,20 @@
 # main links links
 
 main:
-  - title: "首页"
-    url: "/#top"
+  - title: "News"
+    url: "/#news"
 
-  - title: "近况"
+  - title: "Now"
     url: "/#now"
 
-  - title: "实验"
-    url: "/#experiments"
+  - title: "Projects"
+    url: "/#projects"
 
-  - title: "随笔"
+  - title: "Fun Lab"
+    url: "/#fun-lab"
+
+  - title: "Notes"
     url: "/#notes"
 
-  - title: "联系"
-    url: "/#contact"
+  - title: "GitHub"
+    url: "https://github.com/zixuandai0217"

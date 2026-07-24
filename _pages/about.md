@@ -8,147 +8,122 @@ redirect_from:
   - /about.html
 ---
 
-<section class="hero" id="top" aria-labelledby="hero-title">
-  <div class="hero__eyebrow">
-    <span class="status-dot" aria-hidden="true"></span>
-    <span>PERSONAL FIELD NOTES · 2026</span>
-  </div>
-  <div class="hero__title-row">
-    <h1 id="hero-title">你好，我是子轩。<span>我把好奇心<br class="mobile-break">做成东西。</span></h1>
-    <img class="hero__wave" src="{{ '/images/Hi.gif' | relative_url }}" alt="挥手">
-  </div>
-  <p class="hero__lead">这里不是一份严肃到发皱的简历，而是我的在线试验场。它会装下正在学习的东西、做过的小项目，以及偶尔冒出来的奇怪想法。</p>
-  <div class="hero__actions">
-    <a class="site-button site-button--primary" href="#experiments">看看我在折腾什么 <i class="fas fa-arrow-down" aria-hidden="true"></i></a>
-    <button class="site-button site-button--quiet" id="spark-button" type="button" aria-controls="spark-text">
-      <i class="fas fa-shuffle" aria-hidden="true"></i> 随机灵感
-    </button>
-  </div>
-  <p class="spark" id="spark-text" aria-live="polite">今天的起点：做一个小到可以完成、又有一点意外的东西。</p>
-  <div class="hero__meta">
-    <span><i class="fas fa-circle-nodes" aria-hidden="true"></i> Online, somewhere between an idea and a prototype</span>
-    <span id="local-clock">读取本地时间中</span>
-  </div>
-</section>
+<h1 class="main-heading" id="top">Hi there <img src="images/Hi.gif" width="40px" alt="挥手"> Welcome to my Homepage!</h1>
 
-<section class="home-section" id="now" aria-labelledby="now-title">
-  <div class="section-heading">
-    <div>
-      <p class="section-kicker">NOW / 此刻</p>
-      <h2 id="now-title">最近占据注意力的事</h2>
+<p class="intro-copy">你好，我是子轩。这里是我的个人主页，也是一个用来记录学习、项目和奇怪想法的小空间。</p>
+
+<p class="intro-copy">我对 AI、代码和表达复杂想法的方式保持好奇。主页会慢慢更新，不追求一次写完。</p>
+
+News
+---------------
+<div class="news-box">
+  <ul class="news-list">
+    <li><span class="news-date"><em>2026.07</em></span> 🎉 个人主页正式上线。</li>
+    <li><span class="news-date"><em>2026.07</em></span> 🛠️ 给这座在线小屋换了一身新衣服。</li>
+    <li><span class="news-date"><em>Now</em></span> 🔍 正在寻找下一件值得动手的小事。</li>
+  </ul>
+</div>
+
+Now
+--------------
+
+<div class="experience-container">
+  <div class="experience-card">
+    <div class="experience-logo experience-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+    <div class="experience-info">
+      <strong>正在制作</strong><br>
+      <em>2026.07 - Present</em><br>
+      这座在线小屋<br>
+      <span class="muted-copy">从一个空仓库开始，让它先有内容，再慢慢长出性格。</span>
     </div>
-    <p>比履历更新得快一点，比社交媒体慢一点。</p>
   </div>
-  <div class="now-grid">
-    <article class="now-item now-item--orange">
-      <span class="item-index">01</span>
-      <p class="item-label">正在制作</p>
-      <h3>这个主页的第一版</h3>
-      <p>从一个空仓库开始，先让它有性格，再慢慢补上故事。</p>
-    </article>
-    <article class="now-item now-item--blue">
-      <span class="item-index">02</span>
-      <p class="item-label">正在学习</p>
-      <h3>AI、代码与表达</h3>
-      <p>试着把复杂的东西理解清楚，也试着把它们讲得简单。</p>
-    </article>
-    <article class="now-item now-item--green">
-      <span class="item-index">03</span>
-      <p class="item-label">保持好奇</p>
-      <h3>没用但有趣的问题</h3>
-      <p>因为很多真正重要的东西，刚开始都看不出有什么用。</p>
-    </article>
-  </div>
-</section>
 
-<section class="home-section" id="experiments" aria-labelledby="experiments-title">
-  <div class="section-heading">
-    <div>
-      <p class="section-kicker">EXPERIMENTS / 实验</p>
-      <h2 id="experiments-title">把想法放到现实里试一下</h2>
+  <div class="experience-card">
+    <div class="experience-logo experience-icon experience-icon--blue"><i class="fas fa-brain" aria-hidden="true"></i></div>
+    <div class="experience-info">
+      <strong>正在学习</strong><br>
+      <em>Always in progress</em><br>
+      AI、代码与表达<br>
+      <span class="muted-copy">试着把复杂的东西理解清楚，也试着把它们讲得简单。</span>
     </div>
-    <p>不要求宏大，只要求真的动手。</p>
   </div>
-  <div class="experiment-list">
-    <article class="experiment-item">
-      <div class="experiment-item__number">01</div>
-      <div class="experiment-item__body">
-        <div class="experiment-item__header">
-          <h3>这座在线小屋</h3>
-          <span class="status-tag status-tag--live">Live</span>
-        </div>
-        <p>基于 WowPage 的结构重新设计，用暖白、炭黑和少量橙蓝绿，记录一场从模板到个人空间的改造。</p>
-        <a href="https://github.com/zixuandai0217/zixuandai0217.github.io">查看源码 <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
-      </div>
-    </article>
-    <article class="experiment-item">
-      <div class="experiment-item__number">02</div>
-      <div class="experiment-item__body">
-        <div class="experiment-item__header">
-          <h3>一分钟灵感机</h3>
-          <span class="status-tag status-tag--play">Play</span>
-        </div>
-        <p>首页的“随机灵感”会从几个动词和限制条件中抽取一句话。灵感有时只是给自己一个好玩的约束。</p>
-        <button class="text-command" id="idea-button" type="button">生成一个小任务 <i class="fas fa-wand-magic-sparkles" aria-hidden="true"></i></button>
-        <p class="idea-output" id="idea-output" aria-live="polite">用你今天看到的第一种颜色，解释一个抽象概念。</p>
-      </div>
-    </article>
-    <article class="experiment-item experiment-item--empty">
-      <div class="experiment-item__number">03</div>
-      <div class="experiment-item__body">
-        <div class="experiment-item__header">
-          <h3>下一个坑位</h3>
-          <span class="status-tag">Soon</span>
-        </div>
-        <p>这里会留给下一个真正完成的小项目。先保留空白，也是一种诚实的进度。</p>
-      </div>
-    </article>
-  </div>
-</section>
 
-<section class="home-section" id="notes" aria-labelledby="notes-title">
-  <div class="section-heading">
-    <div>
-      <p class="section-kicker">FIELD NOTES / 随笔</p>
-      <h2 id="notes-title">一些还没长成文章的念头</h2>
+  <div class="experience-card">
+    <div class="experience-logo experience-icon experience-icon--yellow"><i class="fas fa-lightbulb" aria-hidden="true"></i></div>
+    <div class="experience-info">
+      <strong>保持好奇</strong><br>
+      <em>No deadline</em><br>
+      那些暂时没用、但很有趣的问题<br>
+      <span class="muted-copy">很多真正重要的东西，刚开始都看不出有什么用。</span>
     </div>
-    <p>短一点，留下当时真实的想法。</p>
   </div>
-  <div class="notes-list">
-    <article class="note-row">
-      <time datetime="2026-07-24">2026.07.24</time>
-      <div>
-        <h3>为什么先做主页？</h3>
-        <p>因为它足够小，可以马上开始；又足够开放，可以一直生长。</p>
-      </div>
-      <span class="note-mark note-mark--orange" aria-hidden="true"></span>
-    </article>
-    <article class="note-row">
-      <time datetime="2026-07-24">2026.07.24</time>
-      <div>
-        <h3>模板不是终点</h3>
-        <p>好的模板解决结构，真正属于自己的部分来自选择、删减和持续更新。</p>
-      </div>
-      <span class="note-mark note-mark--blue" aria-hidden="true"></span>
-    </article>
-    <article class="note-row">
-      <time datetime="2026-07-24">2026.07.24</time>
-      <div>
-        <h3>先发布，再完善</h3>
-        <p>一个在线的不完美版本，比硬盘里永远“快做完”的完美版本更有生命力。</p>
-      </div>
-      <span class="note-mark note-mark--green" aria-hidden="true"></span>
-    </article>
-  </div>
-</section>
+</div>
 
-<section class="contact-band" id="contact" aria-labelledby="contact-title">
-  <p class="section-kicker">CONNECT / 联系</p>
-  <h2 id="contact-title">有好玩的想法？来 GitHub 找我。</h2>
-  <p>项目、建议，或者只是一个值得继续追问的问题，都欢迎。</p>
-  <a class="site-button site-button--light" href="https://github.com/zixuandai0217">
-    <i class="fab fa-github" aria-hidden="true"></i> @zixuandai0217
-  </a>
-</section>
+Projects
+--------
+
+<div class="project-card">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" style="position: relative; width: 260px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/github-avatar.png" alt="Zixuan Dai GitHub avatar" style="width: 260px; height: 180px; object-fit: cover; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>My Personal Homepage</strong><br>
+      <i class="project-meta"><strong>Zixuan Dai</strong> · 2026</i><br>
+      基于 WowPage 和 Jekyll 搭建的个人主页。它既是作品，也是以后所有小项目的入口。
+      <br>
+      <b><i class="project-type">Web Project &nbsp;</i></b>
+      <a href="https://github.com/zixuandai0217/zixuandai0217.github.io"><em>[code]</em></a>
+    </div>
+  </div>
+</div>
+
+Fun Lab
+--------
+
+<div class="project-card fun-card">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator fun-media" style="position: relative; width: 180px; height: 140px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <div class="fun-illustration" aria-hidden="true">🎲</div>
+    </div>
+    <div>
+      <strong>一分钟灵感机</strong><br>
+      当没有项目灵感时，先给自己一个小到可以立刻开始的限制条件。
+      <div class="idea-controls">
+        <button class="pub-button active" id="idea-button" type="button" aria-controls="idea-output">抽一个小任务</button>
+        <span class="idea-output" id="idea-output" aria-live="polite">用今天看到的第一种颜色，解释一个抽象概念。</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-card fun-card">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator fun-media" style="position: relative; width: 180px; height: 140px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <div class="fun-illustration fun-illustration--blue" aria-hidden="true">?</div>
+    </div>
+    <div>
+      <strong>下一个坑位</strong><br>
+      这里会留给下一个真正完成的小项目。先保留空白，也是一种诚实的进度。
+      <br>
+      <b><i class="project-type">Coming soon</i></b>
+    </div>
+  </div>
+</div>
+
+Notes
+--------
+
+- *2026.07.24*, 为什么先做主页？因为它足够小，可以马上开始；又足够开放，可以一直生长。
+- *2026.07.24*, 好的模板解决结构，真正属于自己的部分来自选择、删减和持续更新。
+- *2026.07.24*, 一个在线的不完美版本，比硬盘里永远“快做完”的完美版本更有生命力。
+
+Contact
+--------
+
+<div class="contact-box">
+  有好玩的项目、建议，或者只是一个值得继续追问的问题，欢迎来 GitHub 找我：
+  <a href="https://github.com/zixuandai0217"><strong>@zixuandai0217</strong></a>
+</div>
 
 <script src="{{ '/assets/js/home.js' | relative_url }}"></script>
