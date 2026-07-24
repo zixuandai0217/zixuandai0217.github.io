@@ -16,10 +16,11 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+{% assign asset_version = site.time | date: '%s' %}
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css?v={{ asset_version }}">
 {% if page.stylesheets %}
   {% for stylesheet in page.stylesheets %}
-    <link rel="stylesheet" href="{{ stylesheet | prepend: base_path }}">
+    <link rel="stylesheet" href="{{ stylesheet | prepend: base_path }}?v={{ asset_version }}">
   {% endfor %}
 {% endif %}
 
