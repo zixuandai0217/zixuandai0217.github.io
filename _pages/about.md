@@ -26,17 +26,6 @@ Education
 
 <div class="experience-container">
   <div class="experience-card">
-    <div class="experience-logo experience-brand">
-      <img src="images/ecjtu-emblem.png" alt="华东交通大学校徽">
-    </div>
-    <div class="experience-info">
-      <strong>华东交通大学</strong><br>
-      <em>2019 - 2023</em><br>
-      本科
-    </div>
-  </div>
-
-  <div class="experience-card">
     <div class="experience-logo experience-brand experience-brand--zjgsu">
       <img src="images/zjgsu-logo-light.png" alt="浙江工商大学校徽">
     </div>
@@ -44,6 +33,17 @@ Education
       <strong>浙江工商大学</strong><br>
       <em>2024 - 至今</em><br>
       研究生
+    </div>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-logo experience-brand">
+      <img src="images/ecjtu-emblem.png" alt="华东交通大学校徽">
+    </div>
+    <div class="experience-info">
+      <strong>华东交通大学</strong><br>
+      <em>2019 - 2023</em><br>
+      本科
     </div>
   </div>
 </div>
