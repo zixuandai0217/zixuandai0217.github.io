@@ -1,6 +1,9 @@
 # main links links
 
 main:
+  - title: "Note"
+    url: "/#note"
+
   - title: "Education"
     url: "/#education"
 
@@ -9,6 +12,3 @@ main:
 
   - title: "Project"
     url: "/#project"
-
-  - title: "Note"
-    url: "/#note"
