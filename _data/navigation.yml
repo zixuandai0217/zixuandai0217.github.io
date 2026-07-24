@@ -1,20 +1,14 @@
 # main links links
 
 main:
-  - title: "News"
-    url: "/#news"
+  - title: "Education"
+    url: "/#top"
 
-  - title: "Now"
+  - title: "Experience"
     url: "/#now"
 
-  - title: "Projects"
+  - title: "Project"
     url: "/#projects"
-
-  - title: "Fun Lab"
-    url: "/#fun-lab"
 
   - title: "Notes"
     url: "/#notes"
-
-  - title: "GitHub"
-    url: "https://github.com/zixuandai0217"
