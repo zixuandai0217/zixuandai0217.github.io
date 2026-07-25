@@ -89,7 +89,7 @@
         font-family: 'Lora', 'Noto Serif SC', 'Songti SC', SimSun, Georgia, serif;
     }
     .experience-info strong {
-        font-family: 'Poppins', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+        font-family: 'Lora', 'Noto Serif SC', 'Songti SC', SimSun, Georgia, serif;
         font-size: 1.1em;
     }
     .experience-info a {
@@ -324,7 +324,7 @@
     .project-card > div > strong,
     .project-card > div > div > strong {
         color: #202124;
-        font-family: 'Poppins', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+        font-family: 'Lora', 'Noto Serif SC', 'Songti SC', SimSun, Georgia, serif;
     }
 
     .project-card i {
@@ -384,7 +384,7 @@
             font-size: 15px;
         }
         .main-heading {
-            font-family: 'Poppins', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+            font-family: 'Lora', 'Noto Serif SC', 'Songti SC', SimSun, Georgia, serif;
             font-weight: 600;
             text-align: center;
             color: #ca6f6f;

@@ -14,7 +14,7 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : "Lora", "Noto Serif SC", "Songti SC", SimSun, Georgia, serif;
-$sans-serif                 : "Poppins", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+$sans-serif                 : $serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
